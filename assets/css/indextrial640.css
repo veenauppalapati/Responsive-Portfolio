@@ -1,0 +1,186 @@
+@media screen and (max-width: 640px)
+
+{ /*opening tag for media screen:640px; */
+
+
+	#header
+	{	
+		min-height: 100px;
+		background: #FFFACD;
+		border-bottom: #DCDCDC 5px solid;
+	}
+
+	#YourNamebox
+		{
+			width: 100%;
+			height: 70px;
+			background: #66CDAA;
+			color: #696969;
+			text-align: center;
+			line-height: 70px;
+			font-size:5vw;
+			position: static;
+			margin-left: 0;
+
+		}
+
+		h1
+		{
+			font-size: 7vw;
+		}
+
+
+		#navbar
+		{
+			width: 100%;
+			min-height: 30px;
+			background: cyan;
+			float:left;
+			position:absolute;
+			top:70px;
+			margin:0;	
+			float: right;		
+		}
+
+		/* navbar elements */
+
+			.Menuoptions 
+			{
+				float:left;
+				width: 33.33%;
+				height: 30px;
+				background: white;
+				text-align: center;
+				line-height: 30px;
+
+			}
+			#Aboutmebox
+
+			{
+				border-right: 2px solid darkgrey;
+				box-sizing: border-box;
+			}
+			#Portfoliobox
+			{
+				border-right: 2px solid darkgrey;
+				box-sizing: border-box;
+			}
+
+			/* Text styling for Menu */
+				span
+				{
+					font-size:14px; 
+					font-family: cursive;
+					text-align: justify;
+					color: #696969;
+					line-height: 1px;
+				}
+
+	/*  ===================================================================================== -->*/
+
+	#maincontentarea
+	{
+		
+		
+		width: 100%;
+		position: static;
+		margin:auto;
+		
+		padding: 20px ;
+		box-sizing: border-box;
+	}
+
+	/* maincontent area elements */
+	
+		#aboutmesection
+		{
+			background: #FFF0F5;
+			width:100%;
+			min-height: 250px;
+			padding: 20px;
+			box-sizing: border-box;	
+		}
+
+		#connectwithmesection
+		{
+			background: #FFF0F5;
+			width:100%;
+			min-height: 150px;
+			position: static;
+			margin-top:20px;
+			padding:0 15px 15px 15px;
+			box-sizing: border-box;
+			overflow: auto;
+		}
+
+			/* connect with me section elements */
+
+			#connectwithmeTitlebox
+			{
+				
+				min-height: 40px;
+				text-align: center;
+				line-height: 40px;
+				border-bottom: #C0C0C0 3px solid;
+
+			}
+
+			.stylizedimage
+			{
+				width:60px;
+				height: 60px;
+				
+				
+				
+				margin: 25px 0 0 25px;
+			}
+
+				#githubicon
+				{
+					margin-left: 0;
+
+				}
+
+
+				#AboutmeTitlebox
+			{
+				
+				font-size:18px;
+			}
+
+				#photobox
+			{
+
+				width: 100%;
+				height: 100%;
+				background: none;	
+				float: none;
+				margin: 0;
+				margin:0 auto;
+			
+			}
+
+				p
+				{
+					float: none;
+					font-size:1vw;
+
+				}
+
+				img 
+				{
+					width: 100%;
+					height: 100%;
+					object-fit: contain;
+					float: none;
+					margin:0;
+
+				}
+
+		/* ==================================================================== -->*/
+
+}/*closing tag for media screen:640px; */
+
+
+
+

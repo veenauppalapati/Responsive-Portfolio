@@ -1,0 +1,237 @@
+	body
+	{	
+		
+		background-image: url("https://orig00.deviantart.net/04d9/f/2012/145/1/f/timeline_cover_texture_by_nfc_by_ninetailsfoxchan-d510s4g.jpg");
+		position: relative;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+	}	
+/* ==================================================================== -->*/
+	#header
+	{	
+		min-height: 100px;
+		background: #FFFACD;
+		border-bottom: #DCDCDC 5px solid;
+	}
+	
+	/* ==================================================================== -->*/
+
+	/*header elements */
+
+		#YourNamebox
+		{
+			width: 16%;
+			height: 90px;
+			background: #66CDAA;
+			color: #696969;
+			text-align: center;
+			line-height: 90px;
+			font-size: 1vw;
+			position: absolute;
+			
+			margin-left: 16.29%;
+			top:10px;
+
+		}
+			h1 
+			{
+				
+				font-size: 1.5vw;
+			}
+
+			
+		/* ==================================================================== -->*/
+
+			#navbar
+		{
+			width: 18.75%;
+			min-height: 30px;
+			background: cyan;
+			float: right;
+			position:absolute;
+			top:0;
+			right:0;
+			margin-top:30px;
+			margin-right: 16.75%;	
+			float: right;		
+		}
+
+		/* navbar elements */
+
+			.Menuoptions 
+			{
+				float:left;
+				width: 33.33%;
+				height: 30px;
+				background: white;
+				text-align: center;
+				line-height: 30px;
+
+			}
+			#Aboutmebox
+
+			{
+				border-right: 2px solid darkgrey;
+				box-sizing: border-box;
+			}
+			#Portfoliobox
+			{
+				border-right: 2px solid darkgrey;
+				box-sizing: border-box;
+			}
+
+			/* Text styling for Menu */
+				span
+				{
+					font-size:1vw; 
+					font-family: cursive;
+					text-align: justify;
+					color: #696969;
+				}
+
+
+
+	/* ==================================================================== -->*/
+
+	#maincontentarea
+	{
+		width: 67.6%;
+		
+		
+		position: relative;
+		margin:auto;	
+		
+		padding: 50px 0;
+		box-sizing: border-box;
+	}
+
+	/* ==================================================================== -->*/
+	/* maincontent area elements */
+	
+		#aboutmesection
+		{
+			background: #FFF0F5;
+			width:65.6%;
+			min-height: 250px;
+			padding: 20px;s
+			box-sizing: border-box;	
+		}
+
+		#connectwithmesection
+		{
+			background: #FFF0F5;
+			width:28%;
+			min-height: 150px;
+			position: absolute;
+			top:0;
+			right: 0;	
+			margin-top:50px;
+			padding:0 15px 15px 15px;
+			box-sizing: border-box;
+			overflow: auto;
+		}
+
+			/* connect with me section elements */
+
+			#connectwithmeTitlebox
+			{
+				
+				min-height: 40px;
+				text-align: center;
+				line-height: 40px;
+				border-bottom: #C0C0C0 3px solid;
+
+			}
+
+			.stylizedimage
+			{
+				width:20%;
+				height: 20%;
+				
+				
+				
+				margin: 25px 0 0 25px;
+			}
+
+				#githubicon
+				{
+					margin-left: 0;
+
+				}
+				
+				
+
+
+		/* ==================================================================== -->*/
+
+		/* about me section elements properties */
+
+			#AboutmeTitlebox
+			{
+				width: 100%;
+				min-height: 50px;
+				color: #696969;
+				margin-bottom: 20px;
+				box-sizing: border-box;
+				border-bottom: 2px solid #DCDCDC;
+				line-height: 50px;
+				padding-left:5px;
+				font-size:2vw;
+				
+				
+			}
+
+			#photobox
+			{
+
+				width: 50%; 
+				height: 50%;
+				background: lightgreen;	
+				margin-bottom: 5px;
+				margin-right: 10px;
+				box-sizing: border-box;
+				
+			
+			}
+
+				p
+				{
+					float: none;
+					font-size:1vw;
+					float: left;
+
+				}
+
+				img 
+				{
+					width: 50%;
+					height: 50%;
+					object-fit: contain;
+					float:left;
+					margin-bottom: 5px;
+					margin-right: 10px;
+					box-sizing: border-box;
+
+				}
+
+
+	/* ==================================================================== -->*/
+
+	#Footer
+	{
+		min-height: 100px;
+		background: #FFE4E1;
+		text-align: center;
+		line-height: 100px;
+		color: #696969;
+		border-top: #DCDCDC 5px solid;
+	}
+
+
+
+
+/* ==================================================================== -->*/
+
+
+

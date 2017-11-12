@@ -1,0 +1,157 @@
+@media screen and (max-width: 768px)
+
+{ /*opening tag for media screen:760px; */
+
+
+	#header
+	{	
+		min-height: 70px;
+		background: #FFFACD;
+		border-bottom: #DCDCDC 5px solid;
+	}
+
+	#YourNamebox
+		{
+			width: 25%;
+			height: 70px;
+			background: #66CDAA;
+			color: #696969;
+			text-align: center;
+			line-height: 70px;
+			font-size:16px;
+			position: static;
+			margin-left: 20px;
+
+		}
+
+			h1
+			{
+				font-size: 3vw;
+			}
+
+
+		/* ==================================================================== -->*/
+
+		#navbar
+		{
+			width: 35%;
+			min-height: 30px;
+			background: cyan;
+			float: right;
+			position:absolute;
+			top:20px;
+			right: 0;
+
+			margin:0;	
+			float: right;		
+		}
+
+		/* navbar elements */
+
+			.Menuoptions 
+			{
+				float:left;
+				width: 33.33%;
+				height: 30px;
+				background: white;
+				text-align: center;
+				line-height: 30px;
+
+			}
+			#Aboutmebox
+
+			{
+				border-right: 2px solid darkgrey;
+				box-sizing: border-box;
+			}
+			#Portfoliobox
+			{
+				border-right: 2px solid darkgrey;
+				box-sizing: border-box;
+			}
+
+			/* Text styling for Menu */
+				span
+				{
+					font-size:14px; 
+					font-family: cursive;
+					text-align: justify;
+					color: #696969;
+				}
+
+	/* ==================================================================== -->*/
+
+
+	#maincontentarea
+	{
+		width: 100%;
+		position: static;
+		margin:auto;	
+		padding: 20px ;
+		
+	}
+
+	/* ==================================================================== -->*/
+	/* maincontent area elements */
+	
+		#aboutmesection
+		{
+			background: #FFF0F5;
+			width:100%;
+			min-height: 250px;
+			padding: 10px 20px 20px 20px;
+			box-sizing: border-box;	
+		}
+
+		#connectwithmesection
+		{
+			background: #FFF0F5;
+			width:100%;
+			min-height: 150px;
+			position: static;
+				
+			margin-top:50px;
+			padding:0 15px 15px 15px;
+			box-sizing: border-box;
+			overflow: auto;
+		}
+
+		
+		/* ==================================================================== -->*/
+
+		/* about me section elements properties */
+
+			#AboutmeTitlebox
+			{
+				width: 100%;
+				min-height: 50px;
+				color: #696969;
+				margin-bottom: 20px;	
+				padding-left:5px;
+				font-size:24px;
+				
+				
+			}
+
+			#photobox
+			{
+				width: 300px;
+				height: 300px;
+				float: left;
+				
+			}
+
+				img 
+				{
+					width: 300px;
+					height: 300px;
+					float:left;
+
+				}
+
+
+	/* ==================================================================== -->*/
+
+}/*closing tag for media screen:760px; */
+
+/* ==================================================================== -->*/
