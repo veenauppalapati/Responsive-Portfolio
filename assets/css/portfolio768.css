@@ -1,0 +1,227 @@
+@media screen and (max-width: 768px)
+
+{ /*opening tag for media screen:760px; */
+
+
+	#header
+	{	
+		min-height: 70px;
+		background: #FFFACD;
+		border-bottom: #DCDCDC 5px solid;
+	}
+
+	#YourNamebox
+		{
+			width: 25%;
+			height: 70px;
+			background: #66CDAA;
+			color: #696969;
+			text-align: center;
+			line-height: 70px;
+			font-size:16px;
+			position: static;
+			margin-left: 20px;
+
+		}
+
+			h1
+			{
+				font-size: 3vw;
+			}
+
+
+		/* ==================================================================== -->*/
+
+		#navbar
+		{
+			width: 35%;
+			min-height: 30px;
+			background: cyan;
+			float: right;
+			position:absolute;
+			top:20px;
+			right: 0;
+
+			margin:0;	
+			float: right;		
+		}
+
+		/* navbar elements */
+
+			.Menuoptions 
+			{
+				float:left;
+				width: 33.33%;
+				height: 30px;
+				background: white;
+				text-align: center;
+				line-height: 30px;
+
+			}
+			#Aboutmebox
+
+			{
+				border-right: 2px solid darkgrey;
+				box-sizing: border-box;
+			}
+			#Portfoliobox
+			{
+				border-right: 2px solid darkgrey;
+				box-sizing: border-box;
+			}
+
+			/* Text styling for Menu */
+				span
+				{
+					font-size:14px; 
+					font-family: cursive;
+					text-align: justify;
+					color: #696969;
+				}
+
+	/* ==================================================================== -->*/
+
+
+	#maincontentarea
+	{
+		width: 100%;
+		position: static;
+		min-height: 800px;
+		margin:auto;	
+		padding: 20px ;
+		
+	}
+
+	/* ==================================================================== -->*/
+	/* maincontent area elements */
+	
+		#aboutmesection
+		{
+			background: #FFF0F5;
+			width:100%;
+			min-height: 800px;
+			padding: 20px;
+			padding-bottom: 10px;
+			box-sizing: border-box;	
+		}
+
+
+		/* about me section elements properties */
+
+			#AboutmeTitlebox
+			{
+				width: 100%;
+				min-height: 50px;
+				color: #696969;
+				margin-bottom: 20px;
+				box-sizing: border-box;
+				border-bottom: 2px solid #DCDCDC;
+				line-height: 50px;
+				padding-left:5px;
+				font-size:2vw;	
+				
+			}
+
+			
+			#portfoliobox1,
+			#portfoliobox3,
+			#portfoliobox5 
+			
+			{
+
+			width: 32.6%;		
+			background-color: red;
+			margin-top: 20px;
+			margin-left: 50px;
+			float: left;
+
+			}
+
+			#portfoliobox2,
+			#portfoliobox4  
+			{
+				width: 32.6%;
+				background-color: yellow;
+
+				float: right;
+				margin-right: 50px;
+				margin-top: 20px;
+	
+			}
+
+
+
+			#portfoliobox3 
+			{
+				
+				background-color: green;
+				
+			}
+
+			#portfoliobox4 
+			{
+				
+				background-color: blue;
+
+			}
+
+			#portfoliobox5 
+			{
+				background-color: magenta; 			
+
+			}
+
+			/*Elements in Portfoilboxes*/				
+				#Titlebar1,
+				#Titlebar2,
+				#Titlebar3,
+				#Titlebar4,
+				#Titlebar5
+
+				{
+					
+					width: 100%;
+					min-height: 40px;
+					background: black;
+					margin-top:120px;
+					margin-bottom: 20px;
+					color: silver;
+					text-align: center;
+					line-height: 40px;
+					box-sizing: border-box;
+					font-size: 2vw;
+				}
+
+			/* ==================================================================== -->*/
+
+
+		#connectwithmesection
+		{
+			background: #FFF0F5;
+			width:100%;
+			min-height: 150px;
+			position: static;
+				
+			margin-top:50px;
+			padding:0 15px 15px 15px;
+			box-sizing: border-box;
+			overflow: auto;
+		}
+
+			#connectwithmeTitlebox
+			{
+				
+				font-size: 3vw;
+
+			}
+
+		
+		/* ==================================================================== -->*/
+
+
+
+	/* ==================================================================== -->*/
+
+}/*closing tag for media screen:760px; */
+
+/* ==================================================================== -->*/
